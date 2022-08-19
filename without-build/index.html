@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React without toolchain!</title>
+  
+</head>
+<body>
+  <div id="app">
+    <span>using CDN = content delivery network</span>
+    <!--this is where you tell React to render its output-->
+  </div>
+  <!--CDN links for React-->
+  
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <!--js script file needs to go after the React CDN links-->
+  <script src="/HelloWorld.js"></script>
+</body>
+</html>
